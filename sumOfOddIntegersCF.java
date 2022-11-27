@@ -9,8 +9,8 @@ public class sumOfOddIntegersCF {
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
         while (t-- > 0) {
-            int n = in.nextInt();
-            int k = in.nextInt();
+            long n = in.nextLong();
+            long k = in.nextLong();
             if (n % 2 == k % 2 && n >= k * k)
                 System.out.println("YES");
             else
